@@ -1,0 +1,90 @@
+print("Twinkle, twinkle, little star,")
+print("         How I wonder what you are!")
+print("               Up above the world so high,")
+print("               Like adiamond in the sky.")
+print("Twinkle, twinkle, little star,")
+print("         How I wonder what you are")
+Twinkle, twinkle, little star,
+         How I wonder what you are!
+               Up above the world so high,
+               Like adiamond in the sky.
+Twinkle, twinkle, little star,
+         How I wonder what you are
+ import datetime
+ now = datetime.datetime.now()
+ print(now)
+ 2025-07-26 12:15:24.516000
+Selection deleted
+radius = int(input("Enter radius:"))
+areaofCircle = 3.142*radius**2
+print(areaofCircle)
+Enter radius: 12
+452.448
+print("First name")
+b=(input())
+print("Second name")
+c=(input())
+#reversed programinng
+print(c,b)
+First name
+ 12
+Second name
+ 3
+3 12
+print("First number")
+d=int(input())
+print("Second number")
+e=int(input())
+sum=d+e
+print(sum)
+First number
+ 12
+Second number
+ 3
+15
+print("Enter 5 subject marks ")
+eng=int(input(print("Enter your marks for English :")))
+urdu=int(input(print("Enter your marks for Urdu :")))
+math=int(input(print("Enter your marks for Math :")))
+chem=int(input(print("Enter your marks for Chemistry :")))
+phy=int(input(print("Enter your marks for Physics :")))
+total=eng+urdu+math+chem+phy
+print(total)
+if total<100 and total >90:
+    print("A+")
+elif total <90 and total >80:
+    print("A")
+elif total<80 and total >70:
+    print("B")
+elif total<70 and total >60:
+    print("C")
+elif total<60 and total >50:
+    print("D")
+elif total<50 and total >40:
+    print("E")
+elif total<40 and total >33:
+    print("F")
+else:
+    print("invalid number ") 
+    Enter 5 subject marks 
+Enter your marks for English :
+ 12
+Enter your marks for Urdu :
+ 12
+Enter your marks for Math :
+ 2
+Enter your marks for Chemistry :
+ 3
+Enter your marks for Physics :
+ 4
+33
+invalid number 
+num=int(input(print("enter your number")))
+even=num%2
+if even==0 :
+     print("even")
+else:     
+     print("odd")
+     enter your number
+ 12
+even
